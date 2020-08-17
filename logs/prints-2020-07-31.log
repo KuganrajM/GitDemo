@@ -1,0 +1,7 @@
+13:38:51.813 [TestNG-tests-2] INFO  resources.base - Driver Intialized
+13:38:51.813 [TestNG-tests-1] INFO  resources.base - Driver Intialized
+13:39:14.751 [TestNG-tests-1] INFO  resources.base - URL Opened in Browser
+13:39:15.024 [TestNG-tests-2] INFO  resources.base - URL Opened in Browser
+13:39:17.258 [TestNG-tests-1] INFO  resources.base - Text Validated
+13:39:26.981 [TestNG-tests-2] INFO  resources.base - Submit button clicked
+13:39:32.622 [TestNG-tests-2] INFO  resources.base - URL Opened in Browser

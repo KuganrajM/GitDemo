@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="completeFramework.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="completeFramework.ValidateText">
+        <methods>
+          <include name="vali_Text"/>
+          <include name="close"/>
+          <include name="start_Driver"/>
+        </methods>
+      </class> <!-- completeFramework.ValidateText -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="completeFramework.HomePage">
+        <methods>
+          <include name="start_Driver"/>
+          <include name="close"/>
+          <include name="open_browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- completeFramework.HomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

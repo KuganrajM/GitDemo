@@ -1,0 +1,8 @@
+16:15:58.261 [TestNG] INFO  resources.base - Text Validated
+16:19:20.465 [TestNG] INFO  resources.base - Driver Intialized
+16:19:23.632 [TestNG] INFO  resources.base - Driver Intialized
+16:19:52.561 [TestNG] INFO  resources.base - URL Opened in Browser
+16:20:01.297 [TestNG] INFO  resources.base - Submit button clicked
+16:20:20.461 [TestNG] INFO  resources.base - URL Opened in Browser
+16:20:44.914 [TestNG] INFO  resources.base - Submit button clicked
+16:20:48.562 [TestNG] INFO  resources.base - URL Opened in Browser

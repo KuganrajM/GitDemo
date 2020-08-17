@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="completeFramework.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests" preserve-order="true">
+    <classes>
+      <class name="completeFramework.HomePage">
+        <methods>
+          <include name="start_Driver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- completeFramework.HomePage -->
+      <class name="completeFramework.ValidateText">
+        <methods>
+          <include name="vali_Text"/>
+          <include name="close"/>
+          <include name="start_Driver"/>
+        </methods>
+      </class> <!-- completeFramework.ValidateText -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
