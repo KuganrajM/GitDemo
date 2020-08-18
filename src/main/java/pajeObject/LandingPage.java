@@ -14,6 +14,7 @@ public class LandingPage {
 		this.kugan=kugan;
 	}
 	public WebElement login(){
+		System.out.println("It will return log element");
 		return kugan.findElement(log);
 		
 	}
