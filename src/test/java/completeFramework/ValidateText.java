@@ -31,6 +31,7 @@ public class ValidateText extends base {
 		Assert.assertEquals(landing.course().getText(), "FEATURED COURSES");
 		log.info("Text Validated");
 		Assert.assertTrue(false);
+System.out.println("Kugan");
 
 	}
 
